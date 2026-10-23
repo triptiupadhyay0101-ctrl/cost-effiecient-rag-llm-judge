@@ -1,0 +1,29 @@
+# Cost-Efficient RAG Application
+
+## What is RAG?
+
+Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant information from a knowledge base before generating an answer. It can help language models answer questions using specific documents.
+
+## Why use a vector database?
+
+A vector database stores numerical representations of text called embeddings. It can search for semantically similar text, helping retrieve relevant information even when a question uses different words from the original document.
+
+## What is chunking?
+
+Chunking divides large documents into smaller text sections. Smaller chunks can improve retrieval precision, while larger chunks preserve more context. Overlap helps preserve information across chunk boundaries.
+
+## What is semantic search?
+
+Semantic search retrieves text based on meaning rather than relying only on exact keyword matches. Embedding models represent text as vectors, and a vector database compares those vectors to find similar content.
+
+## How can RAG costs be reduced?
+
+RAG costs can be reduced by using smaller embedding models, selecting appropriate chunk sizes, caching repeated queries, limiting the number of retrieved chunks, and avoiding unnecessary calls to large language models.
+
+## What is retrieval evaluation?
+
+Retrieval evaluation measures how effectively a system finds relevant documents. Common metrics include Recall@k, Hit Rate@k, Mean Reciprocal Rank (MRR), and normalized Discounted Cumulative Gain (nDCG).
+
+## What is grounded answering?
+
+Grounded answering means generating responses based on retrieved evidence. If the knowledge base does not contain enough information to answer a question, the system should clearly communicate that limitation rather than inventing facts.

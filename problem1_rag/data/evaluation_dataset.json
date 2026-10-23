@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is chunking?",
+    "relevant_keywords": ["smaller text sections", "documents"]
+  },
+  {
+    "question": "What is semantic search?",
+    "relevant_keywords": ["meaning", "relevant"]
+  },
+  {
+    "question": "How can RAG costs be reduced?",
+    "relevant_keywords": ["embedding models", "retrieval"]
+  },
+  {
+    "question": "What is retrieval evaluation?",
+    "relevant_keywords": ["relevant documents", "retrieval"]
+  },
+  {
+    "question": "What is grounded answering?",
+    "relevant_keywords": ["retrieved evidence", "answering"]
+  }
+]

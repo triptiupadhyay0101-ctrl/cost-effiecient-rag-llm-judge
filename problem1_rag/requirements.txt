@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+chromadb
+sentence-transformers
+pymupdf
+beautifulsoup4
+markdown
+pandas
+numpy
+pytest
+httpx
